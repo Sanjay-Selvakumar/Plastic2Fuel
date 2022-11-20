@@ -1,15 +1,74 @@
 h1 {
-    position: absolute;
-    left: 50%;
+    font-size: 7rem;
+	margin-top: 20%;
+	margin-bottom: 0%;
+    color: white;
+    text-align: center;
 }
 
+p {
+    font-size: 2rem;
+	color: white;
+    text-align: center;
+    margin-top: 0%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
 
-/* 
-body {
-	width: 100%;
-  	height: 100%;
-  	padding: 0;
-  	margin: 0;
-  
-  	background: linear-gradient(20deg, #F00, #00F);
+button {
+	font-size: 2rem;
+	text-align: center;
+	border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+	cursor: pointer;
+}
+
+/* Navigation */
+
+/* .navbar {
+    overflow: hidden;
+    transition: height 1s ease-in-out;
 } */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(145, 199, 136);
+  }
+
+li {
+	float: left;
+  }
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: xx-large;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: rgb(82, 115, 77);
+  }
+
+main .site-title {
+    background: url('images/clouds.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+ .hero-container{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+	background-repeat: no-repeat;
+    background-size: cover;
+  }
+
