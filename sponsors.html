@@ -4,19 +4,16 @@
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="home.css"/>
         
-        <title>ABOUT</title>
+        <title>SPONSORS</title>
     </head>
 
     <style>
-        h1 {
-          text-shadow: 5px 5px #292828;
-        }
+        h1 {text-shadow: 5px 5px #292828;}
     </style>
 
     <body>
-        
         <!--Navigation Bar-->
         <div class="navbar">
             <ul>
@@ -32,15 +29,24 @@
             </div>
         </div>
 
-
         <!-- Img Background -->
         <main>
-            <section class="site-title">
-                <div class="site-background">
-                    <h1>SPONSORS</h1>
-                    <p>Revolutionizing the Aviation Industry with Sustainable Fuel made from Plastic</p>
-                    <button class="btn">Learn More</button>
-                    <!-- <h3>Welcome Sponsors</h3> -->
+            <section class="about-title">
+                <div>
+                    <h1 class="about-h1">SPONSORS</h1>
+                </div>
+            </section>
+
+            <section class="survey">
+                <div>
+                    <h2>Sponsors fill out the form below</h2>
+                        <form action="/action_page.php">
+                            <label for="fname">First name:</label><br>
+                            <input type="text" id="fname" name="fname" value="John"><br>
+                            <label for="lname">Last name:</label><br>
+                            <input type="text" id="lname" name="lname" value="Doe">
+                            <input type="submit" value="Submit">
+                        </form>
                 </div>
             </section>
         </main> 
